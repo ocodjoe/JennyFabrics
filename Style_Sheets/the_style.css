@@ -304,6 +304,17 @@ think phone is fine but the height issue is the problem.*/
 
 }
 
+/*Note:  This makes an image enlarge after hovering on it*/
+.thumbnail:hover{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	heigth: auto;
+/* 	display: block; */
+/* 	z-index: 999; */
+}
+
 }
 
 /************************/
@@ -337,6 +348,17 @@ think phone is fine but the height issue is the problem.*/
 	/*margin: 10px;*/
 	/*padding:10px;*/
 
+}
+
+/*Note:  This makes an image enlarge after hovering on it*/
+.thumbnail:hover{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 0px;
+	heigth: auto;
+/* 	display: block; */
+/* 	z-index: 999; */
 }
 
 }
